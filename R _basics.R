@@ -175,6 +175,7 @@ print(median(v1))
 
 liste1 <- list(TRUE, FALSE, 1,2, NA, "mary")
 print(liste1[[5]])
+print(is.na(liste1))
 
 #########################################################
 

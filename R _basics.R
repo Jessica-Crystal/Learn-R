@@ -138,5 +138,36 @@ sum<-function(x){
 }
 sum(5)
 sum(7)
+###############################################################
+#vector
+names <-c("James","John" ,"Ben")
+print(names[2])#R is a little bit different wrt python, this gives "John" in R but "Ben" in python
+#filtering
+x<-seq(1,100,by=2)
+print(x)
 
+#######################################################
+#vector arithmetics#
+v1<-c(1,2,3,4,6)
+v2<-c(6,7,8,9,1)
+#addition
+print(v1+v2)
+
+#substraction
+print(v1-v2)
+
+#multiplication
+print(v1*v2)
+
+#division
+
+print(v1/v2)
+
+#mean
+print(mean(v1))
+
+#median
+print(median(v1))
+
+#####################################################
 

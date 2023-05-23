@@ -40,3 +40,8 @@ Strategy <- function(name, returns){
   }
   return(list(name = name, returns = returns, pnl = pnl, volatility = volatility, sharpe_ratio = sharpe_ratio, max_dd = max_dd, max_dd_2 = max_dd_2))
 }
+
+library(tidyr)
+library(zoo)
+data = c(1,NA,NA,NA,2)
+na.approx(data)
